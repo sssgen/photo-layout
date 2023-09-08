@@ -1,11 +1,12 @@
+import Navbar from './components/Navbar/Navbar';
+import ContactUs from './pages/ContactUs/ContactUs';
 import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>pisunchik</h1>
-      </header>
+    <div className="App">  
+      <Navbar />
+      <ContactUs />
     </div>
   );
 }
