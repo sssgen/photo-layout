@@ -1,13 +1,9 @@
-import Navbar from './components/Navbar/Navbar';
-import ContactUs from './pages/ContactUs/ContactUs';
 import './styles/App.css';
+import WebsiteRoutes from './components/WebsiteRoutes/WebsiteRoutes';
 
 function App() {
   return (
-    <div className="App">  
-      <Navbar />
-      <ContactUs />
-    </div>
+    <WebsiteRoutes />
   );
 }
 
