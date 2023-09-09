@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar.jsx'; 
 import { PublicRoutes } from './PublicRoutes.js';
+import Navbar from '../Navbar/Navbar.jsx'
 
 const WebsiteRoutes = () => {
     return (
         <BrowserRouter>
-            <Navbar />
+        <Navbar />
             <Routes>
                 {PublicRoutes.map(({path, element, key}) =>{
 

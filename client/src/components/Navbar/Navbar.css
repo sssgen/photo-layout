@@ -7,7 +7,6 @@
     background: black;
 }
 
-
 .navbar {
     position: absolute;
     top: 0;
@@ -28,4 +27,7 @@
     font-size: 1.5rem;
     color: white;
     margin: 0 10px;
+}
+.navbarLink:hover {
+    filter: brightness(0.75);
 }

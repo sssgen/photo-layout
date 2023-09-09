@@ -1,13 +1,9 @@
-import Navbar from './components/Navbar/Navbar';
-import Landing from './pages/Landing/Landing';
 import './styles/App.css';
+import WebsiteRoutes from './components/WebsiteRoutes/WebsiteRoutes';
 
 function App() {
   return (
-    <div className="App">  
-      <Navbar />
-      <Landing />
-    </div>
+    <WebsiteRoutes />
   );
 }
 
