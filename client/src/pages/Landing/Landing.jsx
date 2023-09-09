@@ -1,5 +1,6 @@
 import React from 'react';
 import './Landing.css';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
     return (
@@ -8,7 +9,7 @@ const Landing = () => {
                 <div className="headerInfo">
                     <h2>Photo printing service</h2>
                     <p>Share bright moments with loved ones</p>
-                    <button>Contact</button>
+                    <Link to='contact'><button>Contact</button></Link>
                 </div>
             </div>
             <h1>Sosal</h1>
