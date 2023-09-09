@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: calc(70vh - 60px);
+    background-image: url("../../Images/headerBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerInfo {
+    width: fit-content;
+    height: 100%;
+    margin-left: 20%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    color: white;
+}
