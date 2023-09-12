@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Landing.scss';
+import MainButton from '../../components/UI/MainButton/MainButton';
 
 const Landing = () => {
     return (
@@ -9,7 +10,7 @@ const Landing = () => {
                 <div className="headerInfo">
                     <h1>Photo printing service</h1>
                     <p>Share bright moments with loved ones</p>
-                    <Link to='contact'><button>Contact</button></Link>
+                    <Link to='contact'><MainButton>Contact</MainButton></Link>
                 </div>
             </div>
 
