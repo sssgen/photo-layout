@@ -7,14 +7,15 @@ const Landing = () => {
     return (
         <div className='landingWrapper'>
             <div className='header'>
-                <div className="headerInfo">
-                    <h1>Photo printing service</h1>
-                    <p>Share bright moments with loved ones</p>
-                    <Link to='contact'><MainButton>Contact</MainButton></Link>
-                </div>
+                <div className='headerSlider' />  
+                    <div className="headerInfo">
+                        <h1>Photo printing service</h1>
+                        <p>Share bright moments with loved ones</p>
+                        <Link to='contact'><MainButton>Contact</MainButton></Link>
+                    </div>
             </div>
 
-                <div className='langingServicesBlocks'>
+                <div className='landingServicesBlocks'>
                     <div className='servicesHeader'>
                             <h1>Our services</h1>
                     </div>

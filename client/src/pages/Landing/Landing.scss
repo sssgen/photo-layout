@@ -1,11 +1,21 @@
+.landingWrapper{
+    margin-top: 60px;
+}
+
 .header {
+    position: relative;
     width: 100%;
     height: calc(70vh - 60px);
     background-image: url("../../Images/headerBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.headerSlider{
+    width: 100%;
+    height: 100%;
+    background: #0000007c;
+    position: absolute;
+}
 .headerInfo {
     width: fit-content;
     height: fit-content;
@@ -16,6 +26,8 @@
     flex-wrap: nowrap;
     position: relative;
     color: white;
+
+    z-index: 1;
 }
 
 .servicesHeader {
