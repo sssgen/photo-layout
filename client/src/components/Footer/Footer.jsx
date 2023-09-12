@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Footer.module.scss';
 import { Link } from 'react-router-dom';
+import logo from '../../Images/logo.png'
 
 const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.footerMain}>
-                
+                <img src={logo} alt='logo'/>
             </div>
             <div className={styles.footerLinks}>
                 <h3>For customer</h3>
