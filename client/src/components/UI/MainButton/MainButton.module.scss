@@ -1,0 +1,16 @@
+@import '../../../utils/mixin.scss';
+
+.main{
+    @include button;
+    border: none;
+    color: white;
+    background-color: #FF284C;
+
+    cursor: pointer;
+    &:hover{
+        background: #FF627C;
+    }
+    &:active{
+        background: #D10628;
+    }
+}

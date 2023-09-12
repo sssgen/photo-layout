@@ -1,0 +1,12 @@
+@mixin button{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 13px 32px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+    transition: .2s;
+}
