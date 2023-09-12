@@ -22,15 +22,101 @@
         border-radius: 15px;
         margin: 10px 0;
         color: white;
+        background-color: red;
         font-weight: 700;
         font-size: 1.3rem;
 
         cursor: pointer;
-        background: rgb(91, 91, 91);
         &:hover{
             background: rgb(187, 185, 185);
             color: black;
             transition: .4s;
         }
     }
+}
+
+.servicesHeader {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.landingServices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.squarePhotos {
+    display: flex;
+    justify-content: space-between;
+    height: 388px;
+    width: 558px;
+    background-color: #e9eaeb;
+    margin: 20px 20px 20px 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.squareImage {
+    background-image: url("../../Images/squarePhotos.jpg");
+    height: 245px;
+    width: 558px;
+    border-radius: 20px;
+}
+
+.squareInfo {
+    h3 {
+    margin: 30px 0px 0px 40px;
+    font-size: 20pt;
+    }
+
+    p {
+        margin: 20px 0px 0px 40px;
+        font-size: smaller;
+    }
+
+}
+
+.squareComponents {
+    display: flex;
+    flex-direction: row;
+
+    button {
+        margin: 20px 0px 0px 15px;
+        height: 40px;
+        border-radius: 6px;
+        border: none;
+    }
+}
+
+.buttonsSquare {
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    flex-grow: 1;
+}
+
+.buttonPriceSquare {
+    background-color: #467edb;
+    color: white;
+    font-size: 16pt;
+    font-weight: 700;
+    width: 100px;
+}
+
+.buttonOrderSquare {
+    background-color: #55bc44;
+    color: white;
+    font-size: 16pt;
+    font-weight: 700;
+    width: 150px;
+}
+
+.polaroidPhotos {
+    height: 388px;
+    width: 558px;
+    background-color: purple;
+    margin: 20px 300px 20px 20px;
 }
