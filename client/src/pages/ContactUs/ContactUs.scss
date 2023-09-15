@@ -1,5 +1,48 @@
 .contactWrapper{
     margin-top: 60px;
+
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.269);
+    max-width: 1300px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contactForm{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: fit-content;
+    padding: 25px;
+    
+    box-shadow: -1px 17px 39px 0px rgba(153,153,153,1);
+    input{
+        width: 480px;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #E9EAEB;
+    }
+    button{
+        width: 100% !important; 
+    }
+}
+.contactAddress{
+    margin-left: 100px;
+
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        margin-right: 10px;
+        display: block;
+    }
 }
