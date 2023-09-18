@@ -113,8 +113,76 @@
 }
 
 .polaroidPhotos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     height: 388px;
     width: 558px;
-    background-color: purple;
+    background-color: #e9eaeb;
     margin: 20px 300px 20px 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    h3 {
+        margin: 30px 0px 0px 40px;
+        font-size: 20pt;
+    }
+
+    p {
+        margin: 0px 0px 0px 40px;
+        font-size: smaller;
+    }
+}
+
+.pPolaroid {
+    margin-top: 20px;
+}
+
+.polaroidImage {
+    background-image: url("../../images/polaroidPhotos.png");
+    height: 245px;
+    width: 558px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.polaroidComponents {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+
+    button {
+        margin: 20px 0px 0px 15px;
+        height: 40px;
+        border-radius: 6px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.buttonsPolaroid {
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    flex-grow: 1;
+}
+
+.buttonPricePolaroid {
+    background-color: #467edb;
+    color: white;
+    font-size: 16pt;
+    font-weight: 700;
+    width: 100px;
+}
+
+.buttonOrderPolaroid {
+    background-color: #55bc44;
+    color: white;
+    font-size: 16pt;
+    font-weight: 700;
+    width: 150px;
 }

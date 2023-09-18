@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './ContactUs.scss';
 import MainButton from '../../components/UI/MainButton/MainButton';
-import phoneIcon from '../../images/phoneIcon.png';
 import emailIcon from '../../images/emailIcon.png';
+import phoneIcon from '../../images/phoneIcon.png';
 import placeIcon from '../../images/placeIcon.png';
+import './ContactUs.scss';
 
 const ContactUs = () => {
     

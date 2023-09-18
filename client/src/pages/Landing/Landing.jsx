@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Landing.scss';
 import MainButton from '../../components/UI/MainButton/MainButton';
+import './Landing.scss';
 
 const Landing = () => {
     return (
@@ -23,10 +23,8 @@ const Landing = () => {
                         
                         <div className='squarePhotos'>
                             
-                            
                             <div className='squareInfo'>
                                 <div className='squareImage'>
-                                
                                 </div>
                                 <h3>Square photos</h3>
                                 <div className='squareComponents'>
@@ -40,13 +38,26 @@ const Landing = () => {
                                     <button className='buttonOrderSquare'>Order</button>
                                     </div>
                                 </div>
-                                
-                                    
                             </div>
                         </div>
 
                         <div className='polaroidPhotos'>
+                            <div className='polaroidImage'>
+                            </div>
+                            <h3>Polaroid photos</h3>
+                            <div className='polaroidComponents'>
+                                <div className='pPolaroid'>
+                                <p>13x13cm</p>
+                                <p>13x13cm</p>
+                                <p>13x13cm</p>
+                                </div>
+                                <div className='buttonsPolaroid'>
+                                    <button className='buttonPricePolaroid'>Price</button>
+                                    <button className='buttonOrderPolaroid'>Order</button>
+                            </div></div>
 
+    
+                            
                         </div>
                 </div>
                 
