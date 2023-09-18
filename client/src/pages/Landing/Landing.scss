@@ -43,8 +43,8 @@
 .squarePhotos {
     display: flex;
     justify-content: space-between;
-    height: 388px;
-    width: 558px;
+    max-height: 388px;
+    max-width: 558px;
     background-color: #e9eaeb;
     margin: 20px 20px 20px 300px;
     border-radius: 20px;
@@ -122,6 +122,7 @@
     margin: 20px 300px 20px 20px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    
 
     h3 {
         margin: 30px 0px 0px 40px;
