@@ -88,13 +88,14 @@
     display: flex;
     margin-top: 3%;
     margin-left: 6%;
-    gap: 39.5%
+    gap: 39.5%;
 }
 
 .servicesButtons {
     display: flex;
     flex-direction: row;
-    gap: 20px
+    gap: 20px;
+
 }
 
 .servicesButton {
@@ -107,6 +108,11 @@
     color: white;
     font-size: 1.1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+    cursor: pointer;
+    &:hover{
+        filter: brightness(0.95);
+    }
 }
 
 .orderButton {
