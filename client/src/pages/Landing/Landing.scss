@@ -21,14 +21,14 @@
 }
 
 .headerInfo {
-    width: 100%;
+    width: fit-content;
     height: 100%;
     margin-left: 23%;
-    padding-top: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
+    justify-content: center;
     color: white;
     z-index: 1;
 
@@ -135,16 +135,14 @@
     .headerSlider {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     .headerInfo {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50vh;
-        width: 50vh;
         margin-left: 0;
-        margin-top: 0;
         h1 {
             font-family: 'Comfortaa', sans-serif;
             font-size: 2rem;
