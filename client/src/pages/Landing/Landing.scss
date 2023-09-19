@@ -44,8 +44,89 @@
 
 }
 
-@media (max-width: 800px) {
-    .headerSlider{
+.servicesHeader {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.topServices {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.topService {
+    height: 388px;
+    background-color: #E9EAEB;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10%;
+
+    h3 {
+        margin-left: 6%;
+        margin-top: 2%;;
+        font-size: 1.5rem;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+    }
+}
+
+.serviceImage {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.topServiceFlex {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 6%;
+    gap: 39.5%
+}
+
+.servicesButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.servicesButton {
+    margin-top: 11%;
+    height: 42px;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.orderButton {
+    background-color: #55BC44;
+    width: 111px;
+}
+
+.priceButton {
+    background-color: #467EDB;
+    width: 81px;
+}
+
+@media (min-width: 1200px) {
+    .servicesHeader {
+    margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .headerSlider {
         display: flex;
         justify-content: center;
     }
@@ -67,5 +148,40 @@
             font-family: 'Nurito sans', sans-serif;
             font-size: 1.1rem;
         }
+    }
+    
+    .topServices {
+        scale: 0.8;
+    }
 }
+
+@media (max-width: 1000px) {
+    .topServices {
+        scale: 0.68;
+    }
+}
+
+@media (max-width: 800px) {
+    .topServices {
+        flex-wrap: wrap;
+        scale: 0.8;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .topServices {
+        scale: 0.6;
+    }
+}
+
+@media (max-width: 400px) {
+    .topServices {
+        scale: 0.45;
+    }
+    
+    .headerInfo {
+        scale: 0.7;
+        flex-shrink: 0;
+    }
 }
