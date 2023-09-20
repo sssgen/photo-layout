@@ -1,5 +1,6 @@
 import LandingPage from '../../pages/Landing/Landing'
 import ContactUs from '../../pages/ContactUs/ContactUs'
+import Price from '../../pages/Price/Price'
 
 export const PublicRoutes = [
     {
@@ -11,5 +12,10 @@ export const PublicRoutes = [
         path: '/contact',
         element: <ContactUs />,
         key: 2
+    },
+    {
+        path: '/price',
+        element: <Price />,
+        key: 3
     }
 ]
