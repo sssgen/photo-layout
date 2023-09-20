@@ -1,28 +1,33 @@
 import React from 'react';
 import './Price.scss';
+import TableRow from '../../components/TableRow/TableRow';
 
 const Price = () => {
+
     return (
         <div className='container'>
             <div className='priceBlock'>
                 <h2>Price</h2>
-                <div className='priceConstructor'>
-                    <div className='size'>
-                        <h3>Size</h3>
-                    </div>
-                    <div className='price'>
-                        <h3>Price</h3>
-                    </div>
-                    <div className='count'>
-                        <h3>Count</h3>
-                    </div>
-                    <div className='cost'>
-                        <h3>Cost</h3>
-                    </div>
-                    <div className='lamination'>
-                        <h3>Lamination</h3>
-                    </div>
-                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Cost</th>
+                            <th>Count</th>
+                            <th>Overall</th>
+                            <th>Lamination</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <TableRow
+                            size={"13x15"}
+                            cost={1312}
+                        />
+                        <TableRow />
+                        <TableRow />
+                        <TableRow />
+                    </tbody>
+                </table>
             </div>
         </div>
     );
