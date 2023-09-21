@@ -167,6 +167,8 @@
     flex-shrink: 1;
     margin-left: 17%;
     margin-right: 17%;
+    margin-bottom: 3%;
+
 }
 
 .bottomService {
@@ -190,7 +192,7 @@
             min-width: 0px;
         }
     
-        @media (max-width: 768px) {
+        @media (max-width: 870px) {
             min-width: 0px;
         }
     }
@@ -210,6 +212,153 @@
     margin-top: 3%;
     margin-left: 6%;
     gap: 7.5%;
+}
+
+.workProcedureWrapper {
+    display: flex;
+    justify-content: center;
+    min-width: 0px;
+    min-height: 0px;
+    margin-bottom: 5%;
+}
+
+.workProcedure {
+    width: 1210px;
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+.howItWorksText {
+    margin-top: 2.8%;
+    h3 {
+        font-family: 'Comfortaa', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+    }
+}
+
+.workSteps {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 0px;
+    min-height: 0px;
+
+}
+
+.workStep {
+    background-color: #E9EAEB;
+    max-width: 656px;
+    max-height: 120px;
+    border-radius: 10px;
+    display: flex;
+    min-width: 0px;
+    min-height: 0px;
+
+    @media (max-width: 700px) {
+        max-width: 656px;
+        max-height: 120px;
+        min-width: 0px;
+        min-height: 0px;
+    }
+
+}
+
+.workStepText {
+    align-self: center;
+    margin-left: 4%;
+    width: 656px;
+    min-width: 0px;
+    min-height: 0px;
+    h4 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 700px) {
+        width: auto;
+    }
+
+    @media (max-width: 400px) {
+        h4 {
+            font-size: 1.1rem;
+        }
+    
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+.benefitsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits {
+    h3 {
+        font-family: 'Comfortaa', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}
+
+.benefitsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 166px;
+    height: 166px;
+    border-radius: 20px;
+    background-color: #E9EAEB;
+}
+
+.benefitIcon {
+    width: 65px;
+    height: 65px;
+    margin-top: -20px;
+    margin-bottom: 7%;
+}
+
+.benefitHeading {
+    font-size: 1.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.benefitInfo {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    max-width: 100px;
 }
 
 @media (max-width: 1200px) {
@@ -265,6 +414,20 @@
 @media (max-width: 900px) {
     .topServices {
         flex-wrap: wrap;
+    }
+
+    .workProcedure {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howItWorksText {
+        text-align: center;
+
+        img {
+            margin-bottom: 10%;
+        }
+        
     }
 }
 
