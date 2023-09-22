@@ -105,6 +105,13 @@
     }
 }
 
+@media (min-width: 1200px) {
+.topServiceImage {
+    width: 558px;
+    height: 245px;
+}
+}
+
 .servicesPhotoSize {
     p {
         font-family: 'Nunito Sans', sans-serif;
@@ -115,6 +122,8 @@
 .serviceImage {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    max-width: 558px;
+    max-height: 245px;
 }
 
 .topServiceFlex {
@@ -320,6 +329,7 @@
         font-weight: 700;
         font-size: 1.9rem;
         text-align: center;
+        
     }
 }
 
@@ -329,6 +339,7 @@
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
+    margin-bottom: 12%;
 }
 
 .benefit {
@@ -342,7 +353,7 @@
 }
 
 .benefitIcon {
-    width: 65px;
+    max-width: 65px;
     height: 65px;
     margin-top: -20px;
     margin-bottom: 7%;
@@ -359,6 +370,43 @@
     font-weight: 400;
     text-align: center;
     max-width: 100px;
+}
+
+.aboutUsWrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6%;
+    margin-left: 13.8%;
+    
+}
+
+.aboutUsHeading {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.aboutUsInfo {
+    h5 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.25rem;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.875rem;
+        max-width: 362px;
+    }
+
+    span {
+        color: hsla(350, 100%, 58%, 1);
+    }
+
+    margin-bottom: 10%;
 }
 
 @media (max-width: 1200px) {
@@ -393,12 +441,8 @@
         margin-right: 5%;
     }
 
-    .priceButton {
-        min-width: 82px;
-    }
-
     .orderButton {
-        min-width: 111px;
+        width: 111px;
     }
 
     .topServiceFlex {
@@ -406,8 +450,8 @@
     }
 
     .topServiceImage {
-        width: 362px;
-        height: 245px;
+        max-width: 362px;
+        max-height: 245px;
     }
 }
 
@@ -427,7 +471,84 @@
         img {
             margin-bottom: 10%;
         }
-        
+    }
+    
+    .workStep {
+        img {
+            min-width: 0;
+            min-height: 0;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .topServiceFlex {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .topService {
+        h3 {
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .serviceImage {
+        min-height: 0;
+    }
+
+    .servicesButtons {
+        margin: 0;
+        gap: 5%;
+    }
+
+    .orderButton {
+        width: 50px;
+        font-size: 0.8rem;
+    }
+
+    .priceButton {
+        width: 50px;
+        font-size: 0.8rem;
+    }
+
+    .bottomServiceFlex {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .bottomService {
+        h3 {
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .workStep {
+        h4 {
+            font-size: 0.8rem;
+        }
+
+        p {
+            font-size: 0.6rem;
+        }
+    }
+
+    .aboutUsWrapper {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .aboutUsInfo {
+        h5 {
+            margin: 0;
+            max-width: fit-content;
+        }
     }
 }
 

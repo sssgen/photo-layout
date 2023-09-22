@@ -188,6 +188,16 @@ function Landing() {
                     </div>
                 </div>
             </div>
+
+            <div className='aboutUsWrapper'>
+                <div className='aboutUsHeading'>
+                <h4>About Us</h4>
+                </div>
+                <div className='aboutUsInfo'>
+                <h5><span className='aboutUsSpan'>PrinterKyiv - </span>photo printing service in Kyiv</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices urna sit id tortor amet amet, eu. Potenti suscipit leo nulla sodales habitant in eget gravida. Urna, vitae pulvinar lorem lorem lacus, sed.</p>
+                </div>
+            </div>
         </div>
     );
 }
