@@ -77,39 +77,6 @@
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 600;
     }
-
-    * {
-        @media (max-width: 1200px) {
-            min-width: 0px;
-            max-width: 400px;
-        }
-
-        @media (max-width: 900px) {
-            min-width: 0px;
-            max-width: 362px;
-        }
-    
-    
-        @media (max-width: 768px) {
-            min-width: 0px;
-        }
-    }
-
-    @media (max-width: 1200px) {
-        min-width: 0px;
-    }
-
-    @media (max-width: 768px) {
-        min-width: 0px;
-        max-height: fit-content;
-    }
-}
-
-@media (min-width: 1200px) {
-.topServiceImage {
-    width: 558px;
-    height: 245px;
-}
 }
 
 .servicesPhotoSize {
@@ -195,25 +162,6 @@
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 600;
     }
-
-    * {
-        @media (max-width: 1200px) {
-            min-width: 0px;
-        }
-    
-        @media (max-width: 870px) {
-            min-width: 0px;
-        }
-    }
-
-    @media (max-width: 1200px) {
-        min-width: 0px;
-    }
-
-    @media (max-width: 768px) {
-        min-width: 0px;
-        max-height: fit-content;
-    }
 }
 
 .bottomServiceFlex {
@@ -274,14 +222,6 @@
     display: flex;
     min-width: 0px;
     min-height: 0px;
-
-    @media (max-width: 700px) {
-        max-width: 656px;
-        max-height: 120px;
-        min-width: 0px;
-        min-height: 0px;
-    }
-
 }
 
 .workStepText {
@@ -302,19 +242,7 @@
         font-size: 1.1rem;
     }
 
-    @media (max-width: 700px) {
-        width: auto;
-    }
 
-    @media (max-width: 400px) {
-        h4 {
-            font-size: 1.1rem;
-        }
-    
-        p {
-            font-size: 0.7rem;
-        }
-    }
 }
 
 .benefitsWrapper {
@@ -409,7 +337,48 @@
     margin-bottom: 10%;
 }
 
+@media (min-width: 1200px) {
+    .topServiceImage {
+        width: 558px;
+        height: 245px;
+    }
+    }
+
 @media (max-width: 1200px) {
+    .bottomServices {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .orderButton {
+        width: 111px;
+    }
+
+    .topServiceFlex {
+        gap: 7.5%;
+    }
+
+    .topServiceImage {
+        max-width: 362px;
+        max-height: 245px;
+    }
+
+    .topService {
+        min-width: 0px;
+        * {
+        min-width: 0px;
+        max-width: 400px;
+        }
+    }
+
+    .bottomService {
+        min-width: 0px;
+        * {
+        min-width: 0px;
+        }
+    }
+
     .headerSlider {
         display: flex;
         justify-content: center;
@@ -431,28 +400,7 @@
             font-family: 'Nurito sans', sans-serif;
             font-size: 1.1rem;
         }
-    }   
-}
-
-@media (max-width: 1200px) {
-    .bottomServices {
-        flex-wrap: wrap;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .orderButton {
-        width: 111px;
-    }
-
-    .topServiceFlex {
-        gap: 7.5%;
-    }
-
-    .topServiceImage {
-        max-width: 362px;
-        max-height: 245px;
-    }
+    } 
 }
 
 @media (max-width: 900px) {
@@ -477,6 +425,21 @@
         img {
             min-width: 0;
             min-height: 0;
+        }
+    }
+
+    .topService {
+        * {
+        min-width: 0px;
+        max-width: 362px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .bottomService {
+        * {
+        min-width: 0px;
         }
     }
 }
@@ -552,6 +515,13 @@
     }
 }
 
+@media (max-width: 760px) {
+    .bottomService {
+    min-width: 0px;
+    max-height: fit-content;
+    }
+}
+
 @media (max-width: 400px) {
     .headerInfo {
         h1 {
@@ -561,5 +531,38 @@
         p {
             font-size: 0.9rem;
         }
+    }
+
+    .workStepText {
+        h4 {
+            font-size: 1.1rem;
+        }
+    
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .topService {
+    min-width: 0px;
+    max-height: fit-content;
+
+        * {
+        min-width: 0px;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .workStepText {
+        width: auto;
+    }
+
+    .workStep {
+        max-width: 656px;
+        max-height: 120px;
+        min-width: 0px;
     }
 }
